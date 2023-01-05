@@ -5,4 +5,6 @@ Using images in a flask app.
 * filenames stored in stock tbl in shop.db
 * jinja used to generate image links with filenames
 
-[W3 CSS Tables](https://www.w3schools.com/w3css/w3css_tables.asp)
+## Refs:
+* [W3 CSS Tables](https://www.w3schools.com/w3css/w3css_tables.asp)
+* [Jinja](https://jinja.palletsprojects.com/en/3.1.x/templates/)
