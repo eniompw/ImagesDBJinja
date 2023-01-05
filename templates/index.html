@@ -1,16 +1,18 @@
-output the list: <br>
-{{ list }}
+output the list: <p>
+    {{ list }}
 <p>
 
 output each row: <br>
-{% for item in list %}
-{{ item[1] }} <br>
-{% endfor %}
+    {% for item in list %}
+    {{ item[1] }} <br>
+    {% endfor %}
 <p>
 
-output as a table: <br>
-<table>
-    <tr>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+output as a table: <p>
+
+<table class="w3-table-all w3-hoverable">
+    <tr class="w3-green">
         <th>name</th>
         <th>image</th>
     </tr>
