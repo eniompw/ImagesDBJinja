@@ -1,0 +1,23 @@
+output the list: <br>
+{{ list }}
+<p>
+
+output each row: <br>
+{% for item in list %}
+{{ item[1] }} <br>
+{% endfor %}
+<p>
+
+output as a table: <br>
+<table>
+    <tr>
+        <th>name</th>
+        <th>image</th>
+    </tr>
+    {% for item in list %}
+    <tr>
+        <td>{{ item[1] }}</td>
+        <td><img src="/static/{{ item[2] }}" width="100"></td>
+    </tr>
+    {% endfor %}
+</table>
