@@ -1,4 +1,4 @@
-output the list: <p>
+output the list: <br>
     {{ list }}
 <p>
 
@@ -19,7 +19,7 @@ output as a table: <p>
     {% for item in list %}
     <tr>
         <td>{{ item[1] }}</td>
-        <td><img src="/static/{{ item[2] }}" width="100"></td>
+        <td><img src="/static/images/{{ item[2] }}" width="100"></td>
     </tr>
     {% endfor %}
 </table>
